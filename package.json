@@ -1,0 +1,10 @@
+{
+    "name": "jedis-client",
+    "version": "0.0.1",
+    "description": "A Package for RingoJS of Jedis, a Java Redis client",
+    "keywords": ["db", "database", "redis"],
+    "author": "Maksim Lin <maksim.lin@ngv.vic.gov.au>",
+    "jars": [
+        "jars/jedis-1.0.0-RC5.1.jar"
+    ]
+}
