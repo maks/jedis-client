@@ -19,9 +19,9 @@ h1. Usage
 
 
 To connect:
-@var redis = new (require('ngv/redis').Redis)();@
+@importClass(Packages.redis.clients.jedis.Jedis);
 
-@redis.connect();@
+@var redis = new Jedis('localhost');@
 
 To set a key:
 @redis.set('foo', 'bar');@
@@ -36,7 +36,7 @@ To disconnect:
 
 h1. License
 
-redis-ringojs-client is distributed under the BSD license.
+jedis-client is distributed under the BSD license.
 
 Copyright (c) 2010, National Gallery of Victoria
 All rights reserved.
