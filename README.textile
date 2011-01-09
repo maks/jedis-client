@@ -17,10 +17,9 @@ h2. Status
 
 h1. Usage
 
+@var {Jedis} = require('jedis');@
 
 To connect:
-@importClass(Packages.redis.clients.jedis.Jedis);
-
 @var redis = new Jedis('localhost');@
 
 To set a key:
